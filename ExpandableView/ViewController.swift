@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import Hero
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var blackView: UIView!
+    @IBOutlet weak var redView: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        redView.heroID = "ironMan"
+        blackView.heroID = "batMan"
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,0 +1,6 @@
+framework module Pods_ExpandableView {
+  umbrella header "Pods-ExpandableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
